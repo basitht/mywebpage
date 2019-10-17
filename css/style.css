@@ -33,6 +33,17 @@
    /*to move text*/
    position: absolute;
    top: 153px;
+   font-size:18px;
+}
+ .name a{
+	 position:absolute;
+	   top:0;
+	   left:137px;
+}
+#bas{
+	position:absolute;
+	top:0;
+	left:175px;
 }
   .links
  {
@@ -46,7 +57,7 @@
       transition: 0.8s;
       -ms-transform: scale(1.5); /* IE 9 */
       -webkit-transform: scale(1.5); /* Safari 3-8 */
-      transform: scale(1.5); 
+      transform: scale(1.1); 
  }
  
  .para{
@@ -56,6 +67,8 @@
     margin-left: 680px;
     top: 230px;
     line-height: 26pt;
+	font-size:18px;
+
  }
  #copyright{
    /*text-align: center;*/
@@ -63,5 +76,7 @@
    position: absolute;
    bottom: 14px;
    left: 589px;
-   letter-spacing: 3px;                
+   letter-spacing: 3px; 
+   font-size:16px;
+   font-weight:bold;
 }
